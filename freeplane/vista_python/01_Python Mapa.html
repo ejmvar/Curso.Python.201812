@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="treestyles.css" type="text/css"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!--This file has been created with toxhtml.xsl--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>Tutoriales Online</title><link rel="stylesheet" href="01_Python Mapa.html_files/treestyles.css" type="text/css"/><script type="text/javascript" src="01_Python Mapa.html_files/marktree.js"> 
+	</script></head><body><div class="basetop"><a href="#" onclick="expandAll(document.getElementById('base'))">Expand</a> -
+<a href="#" onclick="collapseAll(document.getElementById('base'))">Collapse</a></div><div id="base" class="basetext"><ul>
+	<li class="col" id="FMID_1723255651FM"><div class="nodecontent" style="color:#000000;font-size:83%;">Tutoriales Online</div>
+		<ul class="subexp">
+	<li class="col" id="FMID_827047900FM"><div class="nodecontent" style="color:#000000;font-size:83%;">Documentos</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_868737721FM"><div class="nodecontent" style="color:#000000;font-size:83%;">VirtualenvWrapper<ul><li>
+        virtualenvwrapper <a href="https://virtualenvwrapper.readthedocs.io/en/latest/">virtualenvwrapper.readthedocs.io </a></li></ul><p/><p>
+      # Create environment
+    </p><p>
+      mkvirtualenv <b>env1</b></p><p/><p/><p http-equiv="content-type" content="text/html; charset=utf-8">
+      # Now we can install some software into the environment.
+    </p><div class="highlight-python"><div class="highlight"><pre>(env1)$ pip install django</pre></div></div><p/><p/><p http-equiv="content-type" content="text/html; charset=utf-8">
+      #We can see the new package with <tt class="docutils literal"><span class="pre">lssitepackages</span></tt>:
+    </p><div class="highlight-python"><div class="highlight"><pre>(env1)$ lssitepackages
+Django-1.1.1-py2.6.egg-info     easy-install.pth
+setuptools-0.6.10-py2.6.egg     pip-0.6.3-py2.6.egg
+django                          setuptools.pth</pre></div></div><p/><p/><p http-equiv="content-type" content="text/html; charset=utf-8">
+      # Of course we are not limited to a single virtualenv:
+    </p><div class="highlight-python"><div class="highlight"><pre>(env1)$ ls $WORKON_HOME
+env1            hook.log
+
+# Of course we are not limited to a single virtualenv:
+(env1)$ mkvirtualenv env2
+Installing setuptools...............................
+
+(env2)$ ls $WORKON_HOME
+env1            env2            hook.log</pre></div></div><p/><p http-equiv="content-type" content="text/html; charset=utf-8">
+      # Switch between environments with <tt class="docutils literal"><span class="pre">workon</span></tt>:
+    </p><div class="highlight-python"><div class="highlight"><pre>(env2)$ workon env1
+(env1)$ echo $VIRTUAL_ENV
+/Users/dhellmann/Envs/env1
+(env1)$</pre></div></div><p/><p>
+      # --------------------
+    </p><p/><p http-equiv="content-type" content="text/html; charset=utf-8">
+      The <tt class="docutils literal"><span class="pre">workon</span></tt> command also includes tab completion for the environment names, and invokes customization scripts as an environment is activated or deactivated (see <a class="reference internal" href="https://virtualenvwrapper.readthedocs.io/en/latest/scripts.html#scripts" marked="1"><em>Per-User Customization</em></a>).
+    </p><div class="highlight-python"><div class="highlight"><pre>(env1)$ echo 'cd $VIRTUAL_ENV' &gt;&gt; $WORKON_HOME/postactivate
+(env1)$ workon env2
+(env2)$ pwd
+/Users/dhellmann/Envs/env2</pre></div></div><p><a class="reference internal" href="https://virtualenvwrapper.readthedocs.io/en/latest/scripts.html#scripts-postmkvirtualenv" marked="1"><em>postmkvirtualenv</em></a> is run when a new environment is created, letting you automatically install commonly-used tools.
+    </p><div class="highlight-python"><div class="highlight"><pre>(env2)$ echo 'pip install sphinx' &gt;&gt; $WORKON_HOME/postmkvirtualenv
+(env3)$ mkvirtualenv env3</pre></div></div><p/><p>
+      # --------------------
+    </p><p/><p/><p/></div></li></ul></li>
+	<li class="col" id="FMID_94385870FM"><div class="nodecontent" style="color:#000000;font-size:83%;">Videos</div>
+		<ul class="subexp">
+	<li class="col" id="FMID_69238760FM"><div class="nodecontent" style="color:#000000;font-size:83%;">Python</div>
+		<ul class="subexp">
+	<li class="basic" id="FMID_1346462819FM"><div class="nodecontent" style="color:#000000;font-size:83%;">freeCodeCamp.org<p>
+      https://www.youtube.com/watch?v=rfscVS0vtbw
+    </p><p/><p>
+      freeCodeCamp.org
+    </p><p>
+      Published on Jul 11, 2018
+    </p><p/><p><span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(10, 10, 10); font-family: Roboto, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(10, 10, 10)" face="Roboto, Arial, sans-serif" size="14px">Course developed by Mike Dane. Check out his YouTube channel for more great programming courses: </font></span></p><p>
+      https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw
+    </p><p/><p>
+      ⭐️ Contents ⭐
+    </p><p>
+      ⌨️ (0:00) Introduction
+    </p><p>
+      ⌨️ (1:45) Installing Python &amp; PyCharm
+    </p><p>
+      ⌨️ (6:40) Setup &amp; Hello World
+    </p><p>
+      ⌨️ (10:23) Drawing a Shape
+    </p><p>
+      ⌨️ (15:06) Variables &amp; Data Types
+    </p><p>
+      ⌨️ (27:03) Working With Strings
+    </p><p>
+      ⌨️ (38:18) Working With Numbers
+    </p><p>
+      ⌨️ (48:26) Getting Input From Users
+    </p><p>
+      ⌨️ (52:37) Building a Basic Calculator
+    </p><p>
+      ⌨️ (58:27) Mad Libs Game
+    </p><p>
+      ⌨️ (1:03:10) Lists
+    </p><p>
+      ⌨️ (1:10:44) List Functions
+    </p><p>
+      ⌨️ (1:18:57) Tuples
+    </p><p>
+      ⌨️ (1:24:15) Functions
+    </p><p>
+      ⌨️ (1:34:11) Return Statement
+    </p><p>
+      ⌨️ (1:40:06) If Statements
+    </p><p>
+      ⌨️ (1:54:07) If Statements &amp; Comparisons
+    </p><p>
+      ⌨️ (2:00:37) Building a better Calculator
+    </p><p>
+      ⌨️ (2:07:17) Dictionaries
+    </p><p>
+      ⌨️ (2:14:13) While Loop
+    </p><p>
+      ⌨️ (2:20:21) Building a Guessing Game
+    </p><p>
+      ⌨️ (2:32:44) For Loops
+    </p><p>
+      ⌨️ (2:41:20) Exponent Function
+    </p><p>
+      ⌨️ (2:47:13) 2D Lists &amp; Nested Loops
+    </p><p>
+      ⌨️ (2:52:41) Building a Translator
+    </p><p>
+      ⌨️ (3:00:18) Comments
+    </p><p>
+      ⌨️ (3:04:17) Try / Except
+    </p><p>
+      ⌨️ (3:12:41) Reading Files
+    </p><p>
+      ⌨️ (3:21:26) Writing to Files
+    </p><p>
+      ⌨️ (3:28:13) Modules &amp; Pip
+    </p><p>
+      ⌨️ (3:43:56) Classes &amp; Objects
+    </p><p>
+      ⌨️ (3:57:37) Building a Multiple Choice Quiz
+    </p><p>
+      ⌨️ (4:08:28) Object Functions
+    </p><p>
+      ⌨️ (4:12:37) Inheritance
+    </p><p>
+      ⌨️ (4:20:43) Python Interpreter
+    </p></div></li></ul></li>
+	<li class="basic" id="FMID_22610022FM"><div class="nodecontent" style="color:#000000;font-size:83%;">Virtualenv</div></li></ul></li></ul></li></ul></div></body></html>
