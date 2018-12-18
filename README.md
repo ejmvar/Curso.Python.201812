@@ -39,30 +39,29 @@ Webinar introducción / capacitación en Python
 
 
   * Terminal shell
+
+    * En *nx*:
+      * bash (autocomplete)
+      * ksh, csh, etc: ok!
+
+    * En Win*:
+      Utilizar el instalado por Python
+      * no usar git bash
+      * puede utilizarse otro ()
+
   
   * Editor:
     * VSCode (Visual Studio Code)
     * Pycharm (JetBrains)
     
   * Intérprete on-line:
-    * Jupyter
+    * Jupyter notebooks
     
     
   * Mind maps:
     * Freeplane
     
     
-
-    
- Rubro | Open source | Propietario 
- ---|---|---
- 1 | 2 | 3 
-
-|  |  |  |  |  |
-|--:|:-:|:-:|:-:|:-:|
-| shell linux| terminal *nx*/ |  |  |  |
-| shell win* | git bash  |  |  |  |
-|  |  |  |  |  |
 
 
 Estructura del webinar:
