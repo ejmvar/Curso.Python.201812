@@ -22,7 +22,6 @@ Webinar introducción / capacitación en Python
     
     
   * Mind maps:
- 
     * Freeplane
     
     
