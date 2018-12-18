@@ -3,7 +3,7 @@ Webinar: introducción / capacitación en Python
 
 * Repositorios:
     * Este contenido está hosteado en:
-      * https://gitlab.com/ejmvar
+      * https://gitlab.com/ejmvar/Curso.Python.201812
       * https://github.com/ejmvar/Curso.Python.201812
   
 
